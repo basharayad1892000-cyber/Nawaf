@@ -1,0 +1,6 @@
+{
+  "name": "سجل كروت الواي فاي والبونصات",
+  "description": "تطبيق إدارة وتدوين كروت شبكات الواي فاي (فئات 200، 300، 500) وحساب بونصات العملاء مع التوثيق التلقائي للتاريخ عند إدخال العدد.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

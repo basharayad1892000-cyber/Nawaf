@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+    --app-header-h: 52px;
+  }
+
+  @media (min-width: 640px) {
+    :root {
+      --app-header-h: 64px;
+    }
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "kern" 1;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
